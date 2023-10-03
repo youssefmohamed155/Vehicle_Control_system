@@ -7,21 +7,9 @@
 
 #ifndef function_h
 #define function_h
-
-#include <stdio.h>
-//#include <stdio.h>
-//#include <stdbool.h>
 #ifndef TRUE
 #define TRUE                (1u)
 #endif
-
-//#ifndef LOGIC HIGH
-//#define LOGIC_HIGH          (1u)
-//#endif
-//
-//#ifndef LOGIC LOW
-//#define LOGIC_LOW            (0u)
-//#endif
 
 #define NULL_PTR    ((void*)0)
 
