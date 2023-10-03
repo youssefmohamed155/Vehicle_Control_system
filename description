@@ -1,0 +1,22 @@
+code represents a simple vehicle control system that allows the user to turn on/off the vehicle engine and configure various vehicle settings such as traffic light color, room temperature, and engine temperature. 
+The code provides a user-friendly interface for interacting with the vehicle system and displays the current state of the vehicle.
+
+
+
+
+There is a function called Ask_the_user that serves as the main control loop for the vehicle system. It repeatedly asks the user for input and performs actions based on the user's choices.
+
+The Ask_the_user function displays a menu of options to the user, including turning on the vehicle engine, turning off the vehicle engine, and quitting the system.
+
+When the user selects the option to turn on the vehicle engine ('a'), the on_vehicle_engine function is called. This function simulates turning on the engine and provides a menu of sensor settings for the user to configure.
+
+Inside the on_vehicle_engine function, the user can choose to turn off the engine ('a'), set the traffic light color ('b'), set the room temperature ('c'), or set the engine temperature ('d').
+
+Depending on the user's choices, the code modifies the corresponding variables to reflect the selected settings. For example, setting the traffic light color affects the vehicle speed, setting the room temperature may turn on the AC, and setting the engine temperature may enable the engine temperature controller.
+
+The on_vehicle_engine function also includes a loop that continuously displays the vehicle state and prompts the user for further sensor settings until the user chooses to turn off the engine.
+
+When the user selects the option to turn off the vehicle engine ('b'), the off_vehicle_engine function is called. This function resets all the vehicle state variables to zero or their default values and displays the state of the vehicle after turning off the engine.
+
+The main function calls the Ask_the_user function to start the vehicle control system, and the program continues to run until the user chooses to quit the system ('c').
+
